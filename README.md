@@ -1,175 +1,134 @@
-# AlgoMuseum
+# Sofa Exchange
 
-Welcome to **AlgoMuseum** — a virtual museum where algorithms are displayed as exhibits.
+A collection of algorithmic challenges inspired by the operations of a fictional sofa exchange platform.
 
-Instead of simply storing code solutions, AlgoMuseum presents every algorithm as a historical artifact with its own gallery, explanation, complexity analysis, walkthrough, and implementation.
+Imagine a company that helps people exchange, transport, sort, and manage sofas across cities. Every real-world challenge inside the company becomes an algorithmic problem.
 
-Every exhibit answers:
-
-* What problem does this algorithm solve?
-* How does it work?
-* When should it be used?
-* What are its strengths and weaknesses?
-* What is its time and space complexity?
+The goal is to learn Data Structures and Algorithms through practical, story-driven scenarios.
 
 ---
 
-## Museum Map
+## Repository Structure
 
 ```text
-algomuseum/
+sofa-exchange/
 │
 ├── README.md
 │
-├── halls/
-│   │
-│   ├── hall_of_sorting/
-│   │   └── merge_sort/
-│   │       ├── exhibit.md
-│   │       ├── implementation.py
-│   │       ├── complexity.md
-│   │       └── walkthrough.md
-│   │
-│   ├── hall_of_backtracking/
-│   │   └── rat_in_maze/
-│   │       ├── exhibit.md
-│   │       ├── implementation.py
-│   │       ├── complexity.md
-│   │       └── walkthrough.md
-│   │
-│   ├── hall_of_recursion/
-│   │
-│   ├── hall_of_graphs/
-│   │
-│   ├── hall_of_dynamic_programming/
-│   │
-│   └── hall_of_greedy_algorithms/
+├── logistics_center/
+│   ├── sofa_routing/
+│   ├── delivery_network/
+│   └── shortest_delivery_path/
 │
-├── visitor_guide/
+├── warehouse_operations/
+│   ├── sofa_sorting/
+│   ├── inventory_management/
+│   └── merge_sort/
+│
+├── exchange_platform/
+│   ├── sofa_exchange_problem/
+│   ├── matching_buyers_and_sellers/
+│   └── recommendation_system/
+│
+├── navigation_system/
+│   ├── warehouse_maze/
+│   └── rat_in_a_maze/
+│
+├── optimization_center/
+│   ├── minimum_swaps/
+│   ├── scheduling/
+│   └── resource_allocation/
+│
+├── docs/
 │   ├── algorithm_patterns.md
-│   ├── interview_notes.md
-│   └── complexity_cheatsheet.md
+│   ├── complexity_guide.md
+│   └── interview_notes.md
 │
 └── assets/
-    ├── images/
-    └── diagrams/
 ```
 
 ---
 
-## Current Exhibits
+# Current Challenges
 
-### Exhibit 001: Merge Sort
+## Sofa Warehouse Navigation
 
-Location: Hall of Sorting
+A worker must move through a warehouse filled with sofa stacks.
 
-#### Description
+Find all possible routes from the entrance to the dispatch area.
 
-Merge Sort is a Divide and Conquer algorithm that repeatedly divides an array into smaller halves, sorts them independently, and merges them back together.
+Algorithm:
 
-#### Highlights
+* Backtracking
+* DFS
 
-* Stable sorting algorithm
-* Guaranteed O(N log N)
-* Widely used in real-world systems
-
-#### Complexity
-
-| Metric | Value      |
-| ------ | ---------- |
-| Time   | O(N log N) |
-| Space  | O(N)       |
-
----
-
-### Exhibit 002: Rat in a Maze
-
-Location: Hall of Backtracking
-
-#### Description
-
-Rat in a Maze demonstrates the power of Backtracking by exploring every valid path from source to destination while avoiding invalid routes and cycles.
-
-#### Highlights
-
-* Classic Backtracking problem
-* Uses DFS traversal
-* Generates all valid paths
-
-#### Complexity
-
-| Metric | Value     |
-| ------ | --------- |
-| Time   | O(4^(N²)) |
-| Space  | O(N²)     |
-
----
-
-## Future Exhibits
-
-### Hall of Sorting
-
-* Merge Sort
-* Quick Sort
-* Heap Sort
-* Counting Sort
-* Radix Sort
-
-### Hall of Backtracking
+Based on:
 
 * Rat in a Maze
-* N Queens
-* Sudoku Solver
-* Word Search
-* Knight Tour
-
-### Hall of Graphs
-
-* BFS
-* DFS
-* Dijkstra
-* Bellman Ford
-* Floyd Warshall
-
-### Hall of Dynamic Programming
-
-* Knapsack
-* Longest Common Subsequence
-* Longest Increasing Subsequence
-* Matrix Chain Multiplication
-
-### Hall of Greedy Algorithms
-
-* Activity Selection
-* Huffman Coding
-* Fractional Knapsack
 
 ---
 
-## Mission
+## Sofa Inventory Sorting
 
-AlgoMuseum transforms algorithm learning into an exploration experience.
+A warehouse receives sofas in random order.
 
-Every algorithm is treated as an exhibit rather than just a code file, making learning more engaging, structured, and memorable.
+Sort them efficiently before dispatch.
+
+Algorithm:
+
+* Divide and Conquer
+
+Based on:
+
+* Merge Sort
 
 ---
 
-## Additional Repository Structure
+## Sofa Exchange Problem
 
-```text
-algomuseum/
-│
-├── curator_notes/
-│   ├── why_merge_sort.md
-│   └── why_backtracking.md
-│
-├── featured_exhibits/
-│   └── exhibit_of_the_month.md
-│
-└── visitor_challenges/
-    ├── beginner.md
-    ├── intermediate.md
-    └── expert.md
-```
+Customers exchange sofas across different locations.
 
-AlgoMuseum is designed to grow into a complete collection of algorithmic patterns, interview problems, and educational resources organized as museum exhibits.
+Determine the minimum number of swaps required so every customer receives the correct sofa.
+
+Algorithm:
+
+* Graph Cycles
+* Minimum Swaps
+
+---
+
+# Future Challenges
+
+### Logistics
+
+* Fastest Delivery Route
+* Multi-Warehouse Routing
+* Delivery Cost Optimization
+
+### Warehousing
+
+* Inventory Sorting
+* Shelf Allocation
+* Space Optimization
+
+### Exchange Platform
+
+* Buyer-Seller Matching
+* Recommendation Engine
+* Sofa Compatibility Score
+
+### Advanced Algorithms
+
+* Dynamic Programming
+* Graph Theory
+* Greedy Algorithms
+* Network Flow
+
+---
+
+# Mission
+
+Sofa Exchange transforms traditional algorithm problems into realistic business scenarios.
+
+Instead of solving abstract puzzles, contributors solve challenges faced by a growing sofa exchange company while learning algorithmic thinking.
+
