@@ -8,7 +8,7 @@ The goal is to learn Data Structures and Algorithms through practical, story-dri
 
 ---
   Exemplary front page -
-  <img width="473" height="269" alt="image" src="https://github.com/user-attachments/assets/a3c9d65c-f001-46b4-b44c-45f0085164b0" />
+ <img width="1366" height="768" alt="front page banner" src="https://github.com/user-attachments/assets/68521911-4cf3-4072-ad1b-d1eb8c0f8e24" />
 
 ## Repository Structure
 
