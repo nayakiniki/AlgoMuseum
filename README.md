@@ -7,6 +7,8 @@ Imagine a company that helps people exchange, transport, sort, and manage sofas 
 The goal is to learn Data Structures and Algorithms through practical, story-driven scenarios.
 
 ---
+  Exemplary front page -
+  <img width="473" height="269" alt="image" src="https://github.com/user-attachments/assets/a3c9d65c-f001-46b4-b44c-45f0085164b0" />
 
 ## Repository Structure
 
