@@ -5,6 +5,7 @@ A collection of algorithmic challenges inspired by the operations of a fictional
 Imagine a company that helps people exchange, transport, sort, and manage sofas across cities. Every real-world challenge inside the company becomes an algorithmic problem.
 
 The goal is to learn Data Structures and Algorithms through practical, story-driven scenarios.
+Might develop as a mini-game in future
 
 ---
   Exemplary front page -
